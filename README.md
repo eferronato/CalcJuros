@@ -4,8 +4,11 @@ API com dois endpoints: /calculajuros e /showmethecode
 
 ## Live Demo
 
-URL para testar: 
+URL da aplicação: [https://calcjuros20190508113710.azurewebsites.net/]([https://calcjuros20190508113710.azurewebsites.net/])
 
+## Documentação da API (swagger)
+
+[https://calcjuros20190508113710.azurewebsites.net/swagger/index.html]([https://calcjuros20190508113710.azurewebsites.net/swagger/index.html])
 
 ## Author
 

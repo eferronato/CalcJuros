@@ -17,7 +17,7 @@ namespace CalcJuros.Controllers
     public class ShowMeTheCodeController : ControllerBase
     {
         /// <summary>
-        /// Retorna a URL do código fonte. 
+        /// Retorna a URL do código fonte no GitHub. 
         /// Created by Elton Ferronato
         /// </summary>
         /// <returns>URL com o repositório do código fonte</returns>

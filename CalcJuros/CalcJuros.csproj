@@ -3,9 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <UserSecretsId>5db206a4-d1b1-4aa5-973a-5a6dadaae8e3</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\eferr\source\repos\CalcJuros\CalcJuros\CalcJuros.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DocumentationFile>C:\Users\eferr\source\repos\CalcJuros\CalcJuros\CalcJuros.xml</DocumentationFile>
   </PropertyGroup>
 

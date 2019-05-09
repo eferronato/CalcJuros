@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcJuros", "CalcJuros\CalcJuros.csproj", "{CCA30B67-18DE-4D22-B0DA-30776293E67C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcJuros.Tests", "CalcJuros.Tests\CalcJuros.Tests.csproj", "{7555C420-F2D6-40D0-AF48-DC0B9B7CA460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcJuros.Tests", "CalcJuros.Tests\CalcJuros.Tests.csproj", "{7555C420-F2D6-40D0-AF48-DC0B9B7CA460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcJuros.Core", "CalcJuros.Core\CalcJuros.Core.csproj", "{26041A20-375D-4C2C-8E9F-BCFFF3232251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcJuros.Core", "CalcJuros.Core\CalcJuros.Core.csproj", "{26041A20-375D-4C2C-8E9F-BCFFF3232251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcJuros.IntegrationTests", "CalcJuros.IntegrationTests\CalcJuros.IntegrationTests.csproj", "{BF33F282-DBA1-4F7F-BB5F-AE6816849D14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcJuros.IntegrationTests", "CalcJuros.IntegrationTests\CalcJuros.IntegrationTests.csproj", "{BF33F282-DBA1-4F7F-BB5F-AE6816849D14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

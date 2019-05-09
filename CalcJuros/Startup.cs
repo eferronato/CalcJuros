@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.PlatformAbstractions;
 using Swashbuckle.AspNetCore.Swagger;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace CalcJuros
 {
@@ -66,6 +67,12 @@ namespace CalcJuros
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Cálculo de Juros - Elton Ferronato");
+            });
+
+            //Utiliza a documentação do swagger como página inicial da API
+            app.Run(context => {
+                context.Response.Redirect("swagger/index.html");
+                return Task.CompletedTask;
             });
         }
     }

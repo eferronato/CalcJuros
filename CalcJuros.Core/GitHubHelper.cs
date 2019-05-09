@@ -9,7 +9,7 @@
         /// <summary>
         /// Contante que representa a URL do código fonte no github
         /// </summary>
-        public static readonly string GITHUB_URL = "https://github.com/eferronato";
+        public static readonly string GITHUB_URL = "https://github.com/eferronato/CalcJuros";
 
         /// <summary>
         /// Retorna a URL do código fonte. 
